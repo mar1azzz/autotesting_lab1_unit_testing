@@ -1,0 +1,16 @@
+{
+  "require": ["@babel/register"],
+  "spec": ["test/**/*.test.js"],
+  "timeout": 5000,
+  "reporter": "mochawesome",
+  "reporter-option": [
+    "reportDir=reports",
+    "reportFilename=index",
+    "quiet=true",
+    "html=true",
+    "json=false"
+  ],
+  "color": true,
+  "parallel": false,
+  "forbid-only": true
+}

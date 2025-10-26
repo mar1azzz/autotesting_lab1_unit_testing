@@ -1,0 +1,9 @@
+node_modules/
+npm-debug.log*
+coverage/
+reports/
+mochawesome-report/
+.DS_Store
+.idea/
+.vscode/
+.env
